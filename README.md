@@ -2,11 +2,10 @@
 
 This project implements a complete CNN **from scratch** in pure NumPy (no PyTorch/TensorFlow for the NumPy model). It is designed to demonstrate deep understanding of convolution, backpropagation, and training dynamics. A PyTorch baseline is included for comparison.
 
-## Goals
-- Implement Conv2D, ReLU, MaxPool, FC, and Softmax+Cross-Entropy with forward/backward passes
-- Train on MNIST to reach 94%+ validation accuracy
-- Compare results and training speed with a PyTorch baseline
-- Document the math clearly for university admission review
+## Goals (Brief)
+- Implement a CNN from scratch in NumPy (forward + backward for all layers)
+- Train on MNIST to exceed 94% accuracy
+- Compare with a PyTorch baseline
 
 ## Project Structure
 - `src/layers.py`: Core layers (Conv2D, ReLU, MaxPool2D, Linear, Flatten, SoftmaxCE)
@@ -59,4 +58,4 @@ python src/visualize.py --model outputs\\model.npz
 ```
 
 ## License
-MIT (add if needed)
+MIT. See `LICENSE`.
