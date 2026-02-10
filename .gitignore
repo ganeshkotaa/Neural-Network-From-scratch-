@@ -1,0 +1,18 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+neural_network_from_scratch/
+
+# Data / outputs
+data/
+outputs/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
